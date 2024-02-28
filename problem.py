@@ -18,8 +18,7 @@ score_types = [
     rw.score_types.BalancedAccuracy(
         name="bal_acc", precision=3, adjusted=False
     ),
-    rw.score_types.Accuracy(name="acc", precision=3),
-    rw.score_types.F1Above(name="f1_score")
+    rw.score_types.Accuracy(name="acc", precision=3)
 ]
 
 
