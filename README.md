@@ -47,7 +47,7 @@ If you encounter an error during the execution of this command, please do the fo
   else:
      clf.fit(X_array[train_is], y_array[train_is], prev_trained_model)
   return clf
-  ```python
+  ```
   
   By:
   ```python
